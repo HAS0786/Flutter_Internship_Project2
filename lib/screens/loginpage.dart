@@ -14,7 +14,7 @@ class _LoginPageState extends State<LoginPage> {
   // var email = "fredrik@gmail.com";
   final formkey = GlobalKey<FormState>();
 
-  bool isPasswordVisible = true;
+  bool isPasswordVisible = false;
 
   var emailcontroller = TextEditingController();
 
